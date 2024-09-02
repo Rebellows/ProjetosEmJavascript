@@ -1,2 +1,1 @@
-# ProjetosEmJavascript
-Simplesmente projetos em Javascript
+Meus projetos em Javascript nessa jornada da vida.
