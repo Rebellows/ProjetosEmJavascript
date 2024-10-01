@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>General Knowledge Quizz</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/scripts.js" defer></script>
+</head>
+<body>
+  <h1 id="main-title">General Knowledge Quizz</h1>
+  <div id="score-container" class="hide">
+    <h2>Congratulations!</h2>
+    <p id="display-score"><span>90</span>%</p>
+    <p>you answered <span id="correct-answers">0</span> out of <span id="questions-qty">10</span> questions correctly</p>
+    <button id="restart">Restart quizz!</button>
+  </div>
+  <div id="quizz-container">
+    <p id="question">
+      <span id="question-number">1</span> - <span id="question-text">What's the name of the father of computing?</span>
+    </p>
+    <div id="answers-box">
+      <button class="correct-answer"><span class="btn-letter">a</span> <span class="question-answer">Alan Turing</span></button>
+      <button class="wrong-answer"><span class="btn-letter">b</span> <span class="question-answer">Martin Scorcese</span></button>
+      <button><span class="btn-letter">c</span> <span class="question-answer">Gabriel Medina</span></button>
+      <button><span class="btn-letter">d</span> <span class="question-answer">Fausto Silva</span></button>
+    </div>
+  </div>
+  <button class="answer-template hide"><span class="btn-letter">a</span> <span class="question-answer">Alan Turing</span></button>
+</body>
+</html>
